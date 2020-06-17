@@ -2,8 +2,8 @@ self.addEventListener('install', event => {
   event.waitUntil(caches.open('transactions-cache-v1')
   .then(cache => cache.addAll([
     '/',
-    '/icons'
-    '/index.html',
+    '/icons/icon-192x192.png',
+    '/icons/icon-512x512.png',
     '/index.js',
     '/manifest.json',
     '/styles.css'

@@ -22,10 +22,10 @@ request.onerror = event => {
   console.log(event.target.errorCode)
 }
 
-const saveRecord = item => {
+const saveRecord = record => {
   const transaction = db.transaction(['pending'], 'readwrite')
   const store = transaction.objectStore('pending')
-  store.add(item)
+  store.add(record)
 }
 
 const checkDatabase = () => {

@@ -22,3 +22,9 @@ If the dependencies listed above did not appear in your package.json file after 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;EXPRESS: npm i express
 <br>
 
+## Usage
+Budget Tracker helps the user keep track of their finances.
+
+The user first types in a name for the transaction and then the amount of money involved. The user then chooses whether the transaction adds funds or subtracts funds and when completed, the transaction is charted on the graph. 
+
+The app also has functionality to make it continue to work even when the user loses internet connection so they can keep track of their money no matter where they are.

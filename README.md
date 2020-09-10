@@ -31,4 +31,4 @@ The app also has functionality to make it continue to work even when the user lo
 
 ## Screenshot
 
-![Demo] (public/assets/images/demo.png)
+![Demo](public/assets/images/demo.png)
